@@ -1,5 +1,5 @@
 [package]
-name = "bls"
+name = "ethereum_bls"
 version = "0.2.0"
 authors = ["Christian Koopmann <c.k.e.koopmann@gmail.com>"]
 edition = "2021"
@@ -7,7 +7,7 @@ edition = "2021"
 [dependencies]
 eth2_ssz = "0.4.0"
 tree_hash = "0.5.0"
-milagro_bls = { git = "https://github.com/sigp/milagro_bls", tag = "v1.4.2", optional = true }
+milagro_bls = { git = "https://github.com/sigp/milagro_bls", version="1.4.2", tag = "v1.4.2", optional = true }
 rand = "0.7.3"
 serde = "1.0.116"
 serde_derive = "1.0.116"
